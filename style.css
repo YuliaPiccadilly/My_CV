@@ -378,6 +378,9 @@ span{
     .header {
         padding: 2rem 3%;
     }
+    .home-content h1 {
+        margin-top: 5rem;
+    }
     section{
         padding: 2rem 3% 3rem;
     }
