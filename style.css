@@ -23,6 +23,7 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 section{
     min-height: 100vh;
@@ -167,8 +168,10 @@ span{
     transform: rotate(35deg);
     border: 0.6rem solid var(--main-color);
     border-radius: 50%;
-    background-color: var(--main-color);}
-.heading{
+    background-color: var(--main-color);
+    overflow-x: hidden;
+}
+    .heading{
     text-align: center;
     font-size: 4.5rem;
 }
@@ -376,7 +379,7 @@ span{
         padding: 2rem 3%;
     }
     section{
-        padding: 10rem 3% 2rem;
+        padding: 2rem 3% 3rem;
     }
     .portfolio{
         padding-bottom: 7rem;
@@ -426,6 +429,7 @@ span{
     }
     .home-img{
         margin-left: 0;
+        padding: 1.5rem;
     }
     .home-img img{
         width: 50vw;
